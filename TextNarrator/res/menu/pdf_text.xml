@@ -1,0 +1,52 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_play"
+        android:icon="@drawable/play"
+        android:showAsAction="always"
+        android:title="@string/action_play"/>
+    <item
+        android:id="@+id/action_stop"
+        android:icon="@drawable/pause"
+        android:showAsAction="always"
+        android:title="Stop"/>
+    <item
+        android:id="@+id/action_completeStop"
+        android:icon="@drawable/stop"
+        android:showAsAction="always"
+        android:title="CompleteStop"/>
+    <item
+        android:id="@+id/action_bookMark"
+        android:orderInCategory="200"
+        android:showAsAction="never"
+        android:title="Bookmark">
+        <menu>
+            <item
+                android:id="@+id/action_ViewBookMarks"
+                android:orderInCategory="200"
+                android:showAsAction="never"
+                android:title="View Bookmark"/>
+            <item
+                android:id="@+id/action_addBookMark"
+                android:orderInCategory="200"
+                android:showAsAction="never"
+                android:title="BookMark this page"/>
+        </menu>
+    </item>
+     <item
+        android:id="@+id/action_goto_page"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Go to Page"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="200"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="300"
+        android:showAsAction="never"
+        android:title="Help"/>
+
+</menu>

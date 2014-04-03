@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        
+
+    <com.scu.textnarrator.SeekbarPreference
+        android:dialogLayout="@layout/seekbar"
+        android:key="pref_text_rate_key"
+        android:title="Set Speech Rate" 
+
+     />
+
+	<com.scu.textnarrator.ColorPreference
+        android:dialogLayout="@layout/color"
+        android:key="pref_text_color_key"
+        android:title="Set Focus Color" 
+
+     />
+
+    </PreferenceScreen>

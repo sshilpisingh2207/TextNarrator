@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Text Narrator</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_pdf_text">PdfText</string>
+    <string name="action_play">Play</string>
+    <string name="text">Read as Text</string>
+    <string name="pdf">Read as PDF</string>
+    <string name="title_activity_display_pdf">DisplayPdf</string>
+    <string name="title_activity_bookmark">Bookmark</string>
+    <string name="title_activity_help_screen">HelpScreen</string>
+    <string name="title_activity_start">StartActivity</string>
+    
+    <string name="version">1.0</string>
+    <string name="version_append">Version 1.0</string>
+
+    <string name="splash1">▁ ▂ ▄ ▅ ▆ ▇ █ Text Narrator  █ ▇ ▆ ▅ ▄ ▂ ▁</string>
+    <string name="splash2">ℳρ3 ✞α❡ €ⅾїт◎ґ</string>
+
+</resources>
