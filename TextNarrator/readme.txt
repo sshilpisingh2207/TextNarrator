@@ -22,7 +22,7 @@
   ->-Go to Page: Opens a dialog that allows user to enter the page. And goes to the page entered if its a valid page number
 
 
-  ->(Bookmark: Opens a submenu with the following options: -(Priya Bhatt)
+  ->(Bookmark: Opens a submenu with the following options:
         a)View Bookmarks:
                 Gives the list of page numbers  in a dropdown spinner already bookmarked by the user. Goes to the page selected by the user.
         b)BookMark the page :
@@ -30,15 +30,15 @@
         
   ->Settings:
         Added two preference settings.
-        a)Set speech rate: -(Shilpi Singh)
+        a)Set speech rate: 
                 Opens a dialog with a seekbar ranging from 0.2 to 2.5 which provides the rate of speech for the narration.
-        b)Set Focus Color:-(Priya Bhatt)
+        b)Set Focus Color:-
                 Opens a dialog with a spinner drop down which provides different color choices for the highlight color of the text.
 
 
 5)Other UI Enhancements:
    a) Created a help screen and added application icon : Displays the basic flow of the application to the user
- -(Shilpi SIngh).
+ -
   b) Created a startup Screen : Developed startup screen using gradient.
 
 
@@ -117,7 +117,6 @@ using OnUtteranceProgressListner.
 7) Created a new activity, which is launched when the user clicks "View as Pdf" in the context menu.
 
 
--(Priya Bhatt)
 
 
 8) The new activity displays the pdf"s first page as a bitmap image.  Implemented " Gesture Listner " that lets user 
@@ -215,7 +214,7 @@ To understand  and test the different API’s of the external library itext and 
 
 
 
-6)4 Days: (Research)(Shilpi Singh and Priya Bhatt)
+6)
 The challenging part was try to have a pdf viewer which took most of the time.
 
 
